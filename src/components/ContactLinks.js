@@ -7,7 +7,7 @@ class ContactLinks extends React.PureComponent {
       <div className="contact-links">
         <span>
           <a rel="noopener" target="_blank" href="mailto:manavpatel5703@gmail.com">
-            manavpatel5703@gmail.com
+            Gmail
           </a>
         </span>
         <span>
