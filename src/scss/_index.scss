@@ -1,0 +1,88 @@
+@import '../scss/fonts/camphor.scss';
+@import '../scss/_colors';
+@import '../scss/_breakpoints';
+@import '../scss/_reset';
+
+@import '../components/_Navbar.scss';
+@import '../components/_Hero.scss';
+@import '../components/_About.scss';
+@import '../components/_Projects.scss';
+@import '../components/_Contact.scss';
+@import '../components/_Footer.scss';
+
+@font-face {
+  font-family: 'Monaco';
+  src: url('./fonts/monaco-webfont.woff') format('woff');
+}
+
+body {
+  background-color: #f6f9fc;
+  // background-color: rgb(50, 48, 179);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'pnum';
+  font-variant-numeric: proportional-nums;
+}
+
+a {
+  text-decoration: none;
+  color: $purple;
+  // color: green;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+#topBackground {
+  position: absolute
+  ;
+  top: 0;
+  width: 100%;
+  height: 760px;
+  transform: skewY(-12deg);
+  transform-origin: 0;
+  background-color: white;
+  z-index: -999;
+
+  @include mobile {
+    height: 500px;
+  }
+}
+
+.container-lg {
+  // color: red;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  @include mobile {
+    padding: 0 20px;
+  }
+}
+
+.section-title {
+  color: $grey;
+  // color: red;
+  font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+
+  @include mobile {
+    margin-bottom: 40px;
+  }
+}
+
+.section-title:after {
+  content: ' ';
+  border: 4px solid $purple;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50px;
+}
