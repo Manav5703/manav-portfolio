@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'; // Import icons from react-icons
 import '../components/_Contact.scss';
 
 class ContactLinks extends React.PureComponent {
@@ -7,7 +8,7 @@ class ContactLinks extends React.PureComponent {
       <div className="contact-links">
         <span>
           <a rel="noopener" target="_blank" href="mailto:manavpatel5703@gmail.com">
-            Gmail
+            <FaEnvelope /> Gmail
           </a>
         </span>
         <span>
@@ -16,12 +17,12 @@ class ContactLinks extends React.PureComponent {
             target="_blank"
             href="https://www.linkedin.com/in/manavpatel5703"
           >
-            LinkedIn
+            <FaLinkedin /> LinkedIn
           </a>
         </span>
         <span>
           <a rel="noopener" target="_blank" href="https://github.com/Manav5703">
-            github
+            <FaGithub /> GitHub
           </a>
         </span>
       </div>

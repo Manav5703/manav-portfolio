@@ -6,7 +6,7 @@ export default [
   {
     input: 'Manav.contactInfo',
     return:
-      '["<a href="mailto:manavpatel5703@gmail.com">manavpatel5703@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/vai0">github</a>"]',
+      '["<a href="mailto:manavpatel5703@gmail.com">Gmail</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/vai0">GitHub</a>"]',
   },
   {
     input: 'Manav.resume',

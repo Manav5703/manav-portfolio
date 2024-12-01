@@ -17,6 +17,8 @@
   }
 
   span {
+    display: flex;
+    align-items: center;  // Align icons and text properly
     @include mobile {
       margin: 20px 0;
     }
@@ -44,6 +46,14 @@
     position: relative;
     text-decoration: none;
     color: $fadedPurple;
+    display: flex;          // Ensures icons and text align horizontally
+    align-items: center;    // Centers the icon and text vertically
+    font-size: 1.2em;       // Match font size with your existing text
+
+    svg {
+      margin-right: 8px;     // Adds space between icon and text
+      font-size: 1.5em;       // Adjust icon size
+    }
 
     &:after {
       display: block;

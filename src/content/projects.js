@@ -8,7 +8,7 @@ export default [
   {
     title: 'VocalCalc',
     description: 
-      'VocalCalc is a vocal tutoring app designed to help users learn new vocal skills by practicing singing along to various songs and instruments.',
+      'VocalCalc is a Voice-Activated Calculator that allows users to perform basic arithmetic operations using voice commands. This application processes voice input to perform operations like addition, subtraction, multiplication, and division, while providing both visual and audible feedback.',
     skills: ['Python'],
     image: calculator,
     links: {
