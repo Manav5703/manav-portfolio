@@ -1,4 +1,5 @@
 import calculator from '../images/VocalCalc.png';
+import portfolio from '../images/portfolio.png';
 
 
 
@@ -14,5 +15,16 @@ export default [
     links: {
       github: 'https://github.com/Manav5703/VocalCalc',
     },
-  }
+  },
+  {
+    title: 'Portfolio',
+    description:
+      'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
+    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
+    image: portfolio,
+    links: {
+      github: 'https://github.com/Manav5703/portfolio',
+      preview: 'https://manavprofile.netlify.app/',
+    },
+  },
 ];
